@@ -72,4 +72,28 @@ input {
     background-color:hsl(300, 60%, 65%)
 } 
 
+.addButton {
+    background-color: #4CAF50;
+    border: 2px solid white; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 20px 40px;
+    cursor: pointer;
+  }
+
+  .clearButton {
+    background-color: #4CAF50;
+    border: 2px solid white; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+
 
