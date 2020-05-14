@@ -23,3 +23,8 @@ img {
     border: 2px solid darkgreen;
     background-color: hsl(76, 78%, 45%);	
 }
+
+#back {
+    position: relative;
+    top: 20px;
+}
