@@ -5,5 +5,6 @@ function clearField() {
 
 function addTextToList(text){
     var text = document.getElementById("write-stuff").value;
-    document.getElementById("bottomBox").innerHTML = text;
+    var li = "<li>" + text + "</li>";
+    document.getElementById("my-list").appendChild(li);
 }
