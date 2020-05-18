@@ -1,12 +1,38 @@
 body {
-    background-color:hsl(46, 99%, 70%);
     width: 100%;
     height: 100%;
+    background-image: url("golden-retriever.jpg");
   }
+
+#titleBox {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    background: rgba(0,0,0,.1);
+  
+  }
+
+.tit { 
+    font-family: Sofia; 
+    color: #85144b; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px #F012BE,
+             2px 2px 1px #F012BE;
+} 
 
 #topBox {
     position: relative;
-    top: 0;
+    top: 20px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -18,7 +44,7 @@ body {
 
 }
 
- #home {
+#home {
     position: absolute;
     top: 20%;
     bottom: 0%;
@@ -84,7 +110,7 @@ input {
     cursor: pointer;
   }
 
-  .clearButton {
+.clearButton {
     background-color: #4CAF50;
     border: 2px solid white; 
     color: white;

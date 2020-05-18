@@ -8,7 +8,6 @@ var textLoadedToPage = {
 }
 
 function clearField() {
-
     document.getElementById("write-stuff").value = "";
 }
 
@@ -23,7 +22,7 @@ function loadText() {
 
 function hideList() {
     var x = document.getElementById("my-list");
-      x.style.display = "none";
+    x.style.display = "none";
 }
 
 function showList() {
@@ -31,7 +30,7 @@ function showList() {
     x.style.display = "block";
 }
 
-function addTextToList(){
+function addTextToList() {
     var text = document.getElementById("write-stuff").value;
     var node = document.createElement("LI");
     var textnode = document.createTextNode(text)
