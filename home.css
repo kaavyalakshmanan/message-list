@@ -67,7 +67,7 @@ input {
     right: 0;
     margin: auto;
     width: 90%;
-    height: 600px;
+    height: auto;
     border: 2px solid purple;
     background-color:hsl(300, 60%, 65%)
 } 
