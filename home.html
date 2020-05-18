@@ -8,7 +8,7 @@
 <script type="text/javascript" src="home.js"></script>
 </head>
 
-<body>
+<body onload="loadText()">
     
     <div id="topBox">
         <div id="home"> <p> <a href="home.html"> Home </a> </p> </div> 
@@ -25,7 +25,9 @@
     </div>
     </div>
     <div id="bottomBox">
-        <ul id="my-list"></ul>
+        <ul id="my-list">
+            <button class="preload" onclick="loadText();">load</button>
+        </ul>
     </div>
 </body>
 
