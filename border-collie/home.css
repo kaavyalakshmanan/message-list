@@ -67,6 +67,20 @@ body {
   background-color: rgba(0,0,0,.6);;
 }
 
+.btn3 {
+  background-color:  rgba(0,0,0,.3);
+  justify-content: flex-start;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn3:hover {
+  background-color: rgba(0,0,0,.6);;
+}
+
 #middleBox {
     position: relative;
     top: 20px;

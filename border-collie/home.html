@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+
+<link rel="stylesheet" type="text/css" href="home.css"> 
+<script type="text/javascript" src="home.js"></script>
+</head>
+
+<link href= 'https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' /> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div id="titleBox">
+        <h1 class="tit"> Contribute to the Border Collie Wiki Below </h1>
+</div>
+
+<body onload="loadText()">
+
+    <div id="topBox">
+        <a href="home.html">
+            <button class="btn1"><i class="fa fa-home"></i>  Home</button> 
+        </a>
+        <div class="push">
+            <a href="../golden-retriever/home.html">
+                <button class="btn3"><i class="fa fa-bars"></i>  Golden Retriever</button> 
+            </a> 
+            <a href="../about.html">
+                <button class="btn2"><i class="fa fa-bars"></i>  About</button> 
+            </a>
+        </div>
+    </div>
+    
+    <div id="middleBox">
+        <div id="text-field">
+        <form>
+            <label for="write-stuff">Enter your fascinating fact about Border Collies:</label>
+            <input type="text" id="write-stuff" name="write-stuff">
+        </form>
+        <button class="addButton" onclick="addTextToList();">Add</button>
+        <button class="clearButton" onclick="clearField();">Clear</button>
+         </div>
+    </div>
+
+    <div id="bottomBox">
+        <button class="showListButton" onclick="showList();">Show List</button>
+        <button class="hideListButton" onclick="hideList();">Hide List</button>
+        <button class="deleteLastElem" onclick="deleteLastElem();">Delete</button>
+        <ul id="my-list"></ul>
+    </div>
+
+</body>
+</html>
