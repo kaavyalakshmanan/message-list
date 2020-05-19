@@ -37,7 +37,7 @@ body {
     height: 40rem;
     background: rgba(0,0,0,0);
     display: flex;
-    background: lightblue url("dog.gif") no-repeat fixed center; 
+    background: lightblue url("images/dog.gif") no-repeat fixed center; 
   
   }
 
