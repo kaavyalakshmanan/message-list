@@ -43,6 +43,13 @@ function addTextToList() {
     
 }
 
+function deleteLastElem() {
+    let list = document.getElementById("my-list");
+    var lastElem = list.childNodes.length-2
+    list.removeChild(list.childNodes[lastElem])
+
+}
+
 
 
 
