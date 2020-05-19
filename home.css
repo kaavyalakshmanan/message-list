@@ -5,11 +5,6 @@ body {
   }
 
 #titleBox {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     margin: auto;
     width: 90%;
     height: auto;
@@ -19,7 +14,7 @@ body {
 
 .tit { 
     font-family: Sofia; 
-    color: #85144b; 
+    color: black; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,34 +25,46 @@ body {
              2px 2px 1px #F012BE;
 } 
 
+
 #topBox {
-    position: relative;
-    top: 20px;
-    bottom: 0;
-    left: 0;
-    right: 0;
     margin: auto;
     width: 90%;
-    height: 10vh;
-    border: 2px solid darkblue; 
-    background-color: hsl(240, 60%, 70%)
+    height: 3rem;
+    background: rgba(0,0,0,0);
+    display: flex;
 
 }
 
-#home {
-    position: absolute;
-    top: 20%;
-    bottom: 0%;
-    left: 20%;
-    right: 0;
+.push {
+  margin-left: auto;
 }
 
-#about {
-    position: absolute;
-    top: 20%;
-    bottom: 0%;
-    left: 80%;
-    right: 0%;
+
+.btn1 {
+  background-color:  rgba(0,0,0,.3);;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: rgba(0,0,0,.6);;
+}
+
+.btn2 {
+  background-color:  rgba(0,0,0,.3);
+  justify-content: flex-end;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: rgba(0,0,0,.6);;
 }
 
 #middleBox {
@@ -68,10 +75,15 @@ body {
     right: 0;
     margin: auto;
     width: 90%;
-    height: 100px;
-    border: 2px solid darkgreen;
-    background-color: hsl(76, 78%, 45%);	
+    height: 8rem;	
+    background-color: rgba(0,0,0,.3);
 }
+
+label {
+  font-family: Roboto;
+  color: white; 
+  font-size: 20px;
+ }
 
 input {
     width: 70%;
@@ -85,6 +97,12 @@ input {
     right: 0;
 }
 
+#my-list {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white; 
+  font-size: 16px;
+}
+
 #bottomBox {
     position: relative;
     top: 40px;
@@ -94,13 +112,11 @@ input {
     margin: auto;
     width: 90%;
     height: auto;
-    border: 2px solid purple;
-    background-color:hsl(300, 60%, 65%)
+    background-color: rgba(0,0,0,.8);
 } 
 
 .addButton {
-    background-color: #4CAF50;
-    border: 2px solid white; 
+    background-color: rgba(0,0,0,.3);
     color: white;
     text-align: center;
     text-decoration: none;
@@ -110,9 +126,12 @@ input {
     cursor: pointer;
   }
 
+  .addButton:hover {
+    background-color: rgba(0,0,0,.6);;
+  }
+
 .clearButton {
-    background-color: #4CAF50;
-    border: 2px solid white; 
+    background-color: rgba(0,0,0,.3); 
     color: white;
     text-align: center;
     text-decoration: none;
@@ -120,6 +139,40 @@ input {
     font-size: 12px;
     margin: 20px 0px;
     cursor: pointer;
+  }
+
+  .clearButton:hover {
+    background-color: rgba(0,0,0,.6);;
+  }
+
+  .showListButton {
+    background-color: rgba(0,0,0,.1);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 20px 40px;
+    cursor: pointer;
+  }
+
+  .showListButton:hover {
+    background-color: rgba(0,0,0,.6);;
+  }
+
+.hideListButton {
+    background-color: rgba(0,0,0,.1); 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+
+  .hideListButton:hover {
+    background-color: rgba(0,0,0,.6);;
   }
 
 
